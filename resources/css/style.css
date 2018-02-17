@@ -1,10 +1,5 @@
 /* General styling */
 
-* {
-/*Reset default browser settings*/
-  margin: 0;
-  padding: 0;
-}
 body {
   font-family: "Helvetica", sans-serif;
   font-size: 22px;
@@ -12,6 +7,7 @@ body {
   background-color: black;
   opacity: 0.9;
   text-align: center;
+  margin: 0px;
 }
 
 .flex-container {
@@ -34,6 +30,7 @@ header {
   z-index: 1;
   border-bottom: 1px solid seashell;
   align-items: center;
+  background-color: black;
 }
 
 header img {
@@ -56,7 +53,6 @@ a {
 }
 
 /* MAIN CONTENT */
-/* Mission section */
 
 .main {
   padding-top: 69px;
@@ -64,6 +60,8 @@ a {
   width: 1200px;
   margin: auto;
 }
+
+/* Mission section */
 
 #mission {
   height: 700px;
@@ -76,6 +74,8 @@ a {
   background-color: black;
   width: 100%;
 }
+
+/* Store section */
 
 #store {
   height: 700px;
@@ -95,4 +95,34 @@ a {
   font-weight: bold;
   text-align: center;
   padding: 5px;
+}
+
+/* Locations section */
+
+#locations {
+  height: 500px;
+  background-image: url('../images/img-locations-background.jpg');
+  padding-top: 70px;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 280px;
+  width: 300px;
+  padding: 10px;
+  margin: 5px 20px;
+  background-color: black;
+  opacity: 1.0;
+}
+
+/* Contact section */
+#contact {
+  height: 200px;
+}
+
+/* Footer section */
+footer {
+  text-align: left;
+  margin-left: 20px;
 }
